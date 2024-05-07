@@ -1,0 +1,25 @@
+.banner{
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1, .banner p{
+  color:white;
+}
+
+.banner > .container{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.banner p {
+  opacity: .8;
+  font-size: 1.2em;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+}
